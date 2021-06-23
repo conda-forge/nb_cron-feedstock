@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/alexanghh/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 283c009718c62ec7f80685a9efb811c1892065ef30e906911de9b4ec7cf467ac
+  url: https://files.pythonhosted.org/packages/source/n/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: b2d90ae1624ba248322964da41b92acc90804e99af9b8c43d13ef56b24761061
 
 build:
   number: 0
