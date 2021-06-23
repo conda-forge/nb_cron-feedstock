@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/n/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b2d90ae1624ba248322964da41b92acc90804e99af9b8c43d13ef56b24761061
+  sha256: a7c081f81a4ed9c5e8653cd032fe753bedecf15081503b5f13ef09ce7dd8954f
 
 build:
   number: 0
