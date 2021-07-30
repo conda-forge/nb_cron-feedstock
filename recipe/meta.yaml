@@ -19,6 +19,8 @@ build:
 requirements:
   host:
     - python
+    - setuptools
+    - pip
   run:
     - python
     - notebook >=4.3.1
