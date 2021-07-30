@@ -21,6 +21,7 @@ requirements:
     - python
     - setuptools
     - pip
+    - notebook >=4.3.1
   run:
     - python
     - notebook >=4.3.1
