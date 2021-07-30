@@ -22,13 +22,14 @@ requirements:
     - setuptools
     - pip
     - notebook >=4.3.1
+    - python-crontab
   run:
     - python
     - notebook >=4.3.1
-    - croniter
-    - python-crontab
     - traitlets
-    - tornado    
+    - tornado
+    - python-crontab
+    - croniter
 
 test:
   source_files:
