@@ -14,7 +14,7 @@ build:
   script:
     - {{ PYTHON }} -m pip install . -vv
     - jupyter nbextension install nb_cron --py --sys-prefix --overwrite
-  skip: true  # [win]
+  skip: true  # [win or python_impl == 'pypy']
 
 requirements:
   host:
