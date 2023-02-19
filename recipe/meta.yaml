@@ -1,5 +1,5 @@
 {% set name = "nb_cron" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/n/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5cb93c7f7e5874340994aaa613522495798611459de73460e082f1b2567a5e65
+  sha256: 92259a44d120ab33df0ebe58456af15e84b4ce3eaae3f1ac3262d679bc6b2d96
 
 build:
   number: 2
