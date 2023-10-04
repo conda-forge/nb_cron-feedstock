@@ -10,7 +10,7 @@ source:
   sha256: 92259a44d120ab33df0ebe58456af15e84b4ce3eaae3f1ac3262d679bc6b2d96
 
 build:
-  number: 0
+  number: 1
   script:
     - {{ PYTHON }} -m pip install . -vv
     - jupyter nbextension install nb_cron --py --sys-prefix --overwrite
