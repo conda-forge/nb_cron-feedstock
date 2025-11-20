@@ -25,7 +25,7 @@ requirements:
     - python-crontab
   run:
     - python
-    - notebook >=4.3.1
+    - notebook >=4.3.1,<7
     - traitlets
     - tornado
     - python-crontab
