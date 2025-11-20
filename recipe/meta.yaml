@@ -21,7 +21,7 @@ requirements:
     - python
     - setuptools
     - pip
-    - notebook >=4.3.1
+    - notebook >=4.3.1,<7
     - python-crontab
   run:
     - python
