@@ -1,5 +1,5 @@
 {% set name = "nb_cron" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/n/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 92259a44d120ab33df0ebe58456af15e84b4ce3eaae3f1ac3262d679bc6b2d96
+  sha256: 7047cb8fd95c49796f18122ca062894eb34846e23b5ce0d469bdd83845761e5a
 
 build:
-  number: 1
+  number: 0
   script:
     - {{ PYTHON }} -m pip install . -vv
     - jupyter nbextension install nb_cron --py --sys-prefix --overwrite
