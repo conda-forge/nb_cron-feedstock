@@ -42,6 +42,7 @@ test:
     - requests
     - selenium
     - geckodriver
+    - setuptools
   commands:
     - pytest
 
