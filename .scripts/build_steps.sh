@@ -54,7 +54,7 @@ ulimit -n 1024
 # "recipe/yum_requirements.txt" file. After updating that file,
 # run "conda smithy rerender" and this line will be updated
 # automatically.
-/usr/bin/sudo -n yum install -y crontabs firefox
+/usr/bin/sudo -n yum install -y crontabs cronie firefox
 )
 
 # make the build number clobber
